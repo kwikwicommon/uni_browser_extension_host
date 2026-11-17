@@ -1,0 +1,10 @@
+analyzer:
+  exclude:
+    - android/**
+    - ios/**
+    - linux/**
+    - macos/**
+    - web/**
+    - windows/**
+    - build/**
+include: package:uni_lints/analysis_options.yaml

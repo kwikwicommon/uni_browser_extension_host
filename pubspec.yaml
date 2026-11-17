@@ -1,0 +1,22 @@
+name: uni_browser_extension_host
+description: Local loopback host for browser-extension discovery, pairing, and RPC.
+publish_to: "none"
+version: 0.1.0
+homepage: https://github.com/kwikwicommon/uni_browser_extension_host
+
+environment:
+  sdk: ">=3.12.0 <4.0.0"
+
+dependencies:
+  crypto: ^3.0.7
+  ffi: ^2.1.4
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  uni_lints:
+    git:
+      url: https://github.com/kwikwicommon/uni_lints.git
+      ref: 3131ff8e8e8d3880476114e8eb66ad725467da9c
